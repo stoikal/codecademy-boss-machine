@@ -8,7 +8,7 @@
     "start-dev": "webpack -w & nodemon --watch server.js --watch server/",
     "start": "nodemon --watch server.js --watch server/",
     "postinstall": "webpack",
-    "lint": "standard \"server/**/*.js\""
+    "lint": "standard --fix \"server/**/*.js\""
   },
   "author": "Codecademy",
   "license": "ISC",
